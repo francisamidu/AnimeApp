@@ -1,0 +1,14 @@
+//prettier-ignore
+{
+  "extends":"@tsconfig/react-native/tsconfig.json",/*RecommendedReactNativeTSConfigbase*/
+  "compilerOptions":{
+  /*Visithttps://aka.ms/tsconfig.jsontoreadmoreaboutthisfile*/
+  
+  /*Completeness*/
+  "skipLibCheck":true,
+  "baseUrl":"./",
+  "paths":{
+    "@/*":["src/*"]
+    }
+  }
+}
